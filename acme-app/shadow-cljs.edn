@@ -8,4 +8,5 @@
  :builds
  {:app {:target :node-script
         :output-to "target/acme.js"
-        :main acme.core/main!}}}
+        :main acme.core/main!
+        :compiler-options {:infer-externs :auto}}}}
